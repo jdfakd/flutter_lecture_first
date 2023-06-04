@@ -6,10 +6,12 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import "package:flutter_lecture_first/aaaa/aeae.dart";
+import "package:flutter_lecture_first/aaaa/bdbdbd.dart";
 
 
 
 void main() {
   Variable();
 
+  Operator();
 }
