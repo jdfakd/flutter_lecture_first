@@ -13,9 +13,9 @@ import "package:flutter_lecture_first/aaaa/method.dart";
 
 void main() {
   Variable();
-
   Operator();
-
   Method();
+
+
 
 }
