@@ -7,6 +7,7 @@
 
 import "package:flutter_lecture_first/aaaa/aeae.dart";
 import "package:flutter_lecture_first/aaaa/bdbdbd.dart";
+import "package:flutter_lecture_first/aaaa/method.dart";
 
 
 
@@ -14,4 +15,7 @@ void main() {
   Variable();
 
   Operator();
+
+  Method();
+
 }
