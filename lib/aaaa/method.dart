@@ -18,8 +18,8 @@ class Method{
     var iResult=introduce(name: "김진한", name2: "김진한2");
     print('Method.Method iResult : $iResult');
 
-    optional("김진한",b: "추가");
-
+    var o = optional("김진한",b: "추가");
+    print('ooo : $o');
   }
 
   /// 2개의 숫자를 더한 다음 나누기 2를 하고 1.5를 곱하세요
