@@ -7,6 +7,8 @@
 
 import "package:flutter_lecture_first/aaaa/aeae.dart";
 import "package:flutter_lecture_first/aaaa/bdbdbd.dart";
+import "package:flutter_lecture_first/aaaa/collections1.dart";
+import "package:flutter_lecture_first/aaaa/for_loop.dart";
 import "package:flutter_lecture_first/aaaa/method.dart";
 
 
@@ -15,6 +17,10 @@ void main() {
   Variable();
   Operator();
   Method();
+  Collections();
+  Forloop();
+  
+
 
 
 
