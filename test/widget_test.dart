@@ -11,6 +11,7 @@ import "package:flutter_lecture_first/aaaa/collections1.dart";
 import "package:flutter_lecture_first/aaaa/for_loop.dart";
 import "package:flutter_lecture_first/aaaa/method.dart";
 import "package:flutter_lecture_first/ch2/coffee/americano.dart";
+import "package:flutter_lecture_first/ch2/coffee/latte.dart";
 import "package:flutter_lecture_first/ch2/person.dart";
 import "package:flutter_lecture_first/ch2/product.dart";
 
@@ -62,5 +63,13 @@ void main() {
 
  Americano americano = Americano("프리미엄 아메리카노", 8000, false, false);
  americano.sale();
+ americano.service();
+ americano.refund();
+
+ Latte latte = Latte("저렴한 라떼", 1500, true, true);
+ latte.sale();
+ latte.service();
+ latte.refund();
+
 
 }

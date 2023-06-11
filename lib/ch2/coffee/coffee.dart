@@ -13,4 +13,11 @@ abstract class Coffee{
     print('name : $name, price : $price, isHot : $isHot, takeOut : $takeOut');
   }
 
+  void service(){
+    print("$name 제품 서비스 증정");
+  }
+
+  void refund(){
+    print("$name 제품 환불");
+  }
 }
