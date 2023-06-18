@@ -15,6 +15,7 @@ import "package:flutter_lecture_first/ch2/animal/bird.dart";
 import "package:flutter_lecture_first/ch2/animal/dog.dart";
 import "package:flutter_lecture_first/ch2/coffee/americano.dart";
 import "package:flutter_lecture_first/ch2/coffee/latte.dart";
+import "package:flutter_lecture_first/ch2/homework_car.dart";
 import "package:flutter_lecture_first/ch2/person.dart";
 import "package:flutter_lecture_first/ch2/product.dart";
 
@@ -83,11 +84,15 @@ void main() {
   //bird1.run();
 
 
-  Dog dog1 = Dog(name: "흰둥이", age: 3);
-  dog1.run();
-  dog1.swim();
-  dog1.eat();
-  dog1.sleep();
+  // Dog dog1 = Dog(name: "흰둥이", age: 3);
+  // dog1.run();
+  // dog1.swim();
+  // dog1.eat();
+  // dog1.sleep();
+
+
+ HomeWorkCar();
+
 }
 
 

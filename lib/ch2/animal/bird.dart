@@ -1,9 +1,10 @@
 import 'package:flutter_lecture_first/ch2/animal/animal.dart';
 import 'package:flutter_lecture_first/ch2/animal/dog_interface.dart';
+import 'package:flutter_lecture_first/ch2/animal/item.dart';
 
 import 'animal_interface.dart';
 
-class Bird extends Animal implements DogInterface {
+class Bird extends Animal with Item, Item2 implements DogInterface{
   ///생성자
   ///생성자는 해당 클래스를 생설할 떄 사용하는 함수
   ///super 라는 키워드는 부모 클래스의 생성자에 값을 입력하는 기능
@@ -50,5 +51,20 @@ class Bird extends Animal implements DogInterface {
   @override
   void play() {
     // TODO: implement play
+  }
+
+  @override
+  void wakeUp() {
+
+  }
+
+  @override
+  void talk() {
+
+  }
+
+  @override
+  void nothing() {
+   // TODO 나중에 할 것- 이렇게 안까먹고 추가할 수 있음
   }
 }
