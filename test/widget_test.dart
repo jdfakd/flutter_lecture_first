@@ -7,9 +7,12 @@
 
 import "package:flutter_lecture_first/aaaa/aeae.dart";
 import "package:flutter_lecture_first/aaaa/bdbdbd.dart";
+import "package:flutter_lecture_first/aaaa/ccccc.dart";
 import "package:flutter_lecture_first/aaaa/collections1.dart";
 import "package:flutter_lecture_first/aaaa/for_loop.dart";
 import "package:flutter_lecture_first/aaaa/method.dart";
+import "package:flutter_lecture_first/ch2/animal/bird.dart";
+import "package:flutter_lecture_first/ch2/animal/dog.dart";
 import "package:flutter_lecture_first/ch2/coffee/americano.dart";
 import "package:flutter_lecture_first/ch2/coffee/latte.dart";
 import "package:flutter_lecture_first/ch2/person.dart";
@@ -61,15 +64,49 @@ void main() {
  // computer.sum();
 
 
- Americano americano = Americano("프리미엄 아메리카노", 8000, false, false);
- americano.sale();
- americano.service();
- americano.refund();
+ // Americano americano = Americano("프리미엄 아메리카노", 8000, false, false);
+ // americano.sale();
+ // americano.service();
+ // americano.refund();
+ //
+ // Latte latte = Latte("저렴한 라떼", 1500, true, true);
+ // latte.sale();
+ // latte.service();
+ // latte.refund();
 
- Latte latte = Latte("저렴한 라떼", 1500, true, true);
- latte.sale();
- latte.service();
- latte.refund();
+ // Conditional();
+
+  ///Bird 클래스 생성
+  //Bird bird1 = Bird("비둘기", 2);
+
+  /// run 함수 호출
+  //bird1.run();
 
 
+  Dog dog1 = Dog(name: "흰둥이", age: 3);
+  dog1.run();
+  dog1.swim();
+  dog1.eat();
+  dog1.sleep();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

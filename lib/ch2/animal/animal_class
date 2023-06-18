@@ -1,0 +1,9 @@
+애니멀 클래스
+
+Animal이라는 추상 클래스를 만들것 ->부모클래스 역할
+
+Bird와 Dog라는 자식클래스를 만들것 -> Animal 클래스 상속, Animal 클래스의 자식클래스
+
+Animal Interface를 만들것
+Item 이라는 mixin 클래스를 만들것 -> 클래스에서 사용할 수 있는 도구
+
